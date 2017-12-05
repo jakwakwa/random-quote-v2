@@ -4,7 +4,15 @@ function getRandomQuote() {
     var randomNumber = Math.floor( Math.random() * quotes.length );
     return quotes[randomNumber];
 }
-
+// When called a new background color will be set to the body element
+function setBgColor() {
+    var bodyBg = document.body.style.backgroundColor;
+    var r = Math.floor( Math.random() * 256 );
+    var g = Math.floor( Math.random() * 256 );
+    var b = Math.floor( Math.random() * 256 );
+    return document.body.style.backgroundColor =  "rgb(" + r + "," + g + "," + b + ")";
+}
+// When called a random quote will be printed to the page
 function printQuote() {
     // printQuote calls the getRandomQuote function and stores the returned quote object in a variable
     var quoteObject = getRandomQuote();

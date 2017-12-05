@@ -3,6 +3,7 @@ body {
   background-color: #36b55c;
   color: white;
   font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s ease-in;
 }
 #quote-box {
   position: absolute;
@@ -58,8 +59,7 @@ body {
 }
 .tags {
   font-size: 10px;
-  color: #d1ffde;
-  border: 1px solid #97f1b1;
+  border: 1px solid #fff;
   padding: 10px 20px;
   margin-left: 20px;
   border-radius: 20px;

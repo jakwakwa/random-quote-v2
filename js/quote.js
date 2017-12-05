@@ -13,6 +13,24 @@ var quotes = [
         tags: ['Tech Industry', 'Apple', 'Quality']        
     },
     {
+        quote: 'Nearly all men can stand adversity, but if you want to test a man\'s character, give him power.',
+        source: 'Abraham Lincoln',
+        citation: 'www.brainyquote.com',
+        tags: ['Power', 'Adversity', 'Character']
+    },
+    {
+        quote: 'The secret of getting ahead is getting started.',
+        source: 'Mark Twain',
+        citation: 'www.brainyquote.com',
+        tags: ['Ahead', 'Getting Started']
+    },
+    {
+        quote: 'The difference between stupidity and genius is that genius has its limits.',
+        source: 'Albert Einstein',
+        citation: 'www.brainyquote.com',
+        tags: ['Intelligence', 'Stupidity']
+    },
+    {
         quote: 'Do not be anxious about tomorrow, for tomorrow will be anxious for itself. Let the day\'s own trouble be sufficient for the day.',
         source: 'Jesus Christ',
         citation: 'The Holy Bible'        
