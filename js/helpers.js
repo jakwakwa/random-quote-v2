@@ -18,6 +18,9 @@ function printQuote() {
     if (quoteObject.year) {
         html += '<span class="citation">' + quoteObject.year + '</span>';
     }
+    if (quoteObject.tags) {
+        html += '<span class="tags">' + quoteObject.tags.join(', ') + '</span>';
+    }
     html += '</p>';
     var print = document.getElementById('quote-box').innerHTML = html;
     return print;

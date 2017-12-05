@@ -56,6 +56,15 @@ body {
   content: ", ";
   font-style: normal;
 }
+.tags {
+  font-size: 10px;
+  color: #d1ffde;
+  border: 1px solid #97f1b1;
+  padding: 10px 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
 
 #loadQuote {
   position: fixed;
