@@ -21,4 +21,3 @@ var quotes = [
         source: 'Plato'       
     }
 ];
-

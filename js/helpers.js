@@ -22,13 +22,3 @@ function printQuote() {
     var print = document.getElementById('quote-box').innerHTML = html;
     return print;
 }
-
-
-
-
-
-
-// using the following HTML template:
-
-
-console.log(getRandomQuote());
