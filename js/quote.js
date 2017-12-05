@@ -9,7 +9,8 @@ var quotes = [
         quote: 'Be a yardstick of quality. Some people aren\'t used to an environment where excellence is expected.',
         source: 'Steve Jobs',
         citation: 'www.brainyquote.com',
-        year: 1997        
+        year: 1997,
+        tags: ['Tech Industry', 'Apple', 'Quality']        
     },
     {
         quote: 'Do not be anxious about tomorrow, for tomorrow will be anxious for itself. Let the day\'s own trouble be sufficient for the day.',
