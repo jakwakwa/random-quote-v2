@@ -4,7 +4,7 @@ var getRandomQuote = function () {
     var randomNumber = Math.floor( Math.random() * quotes.length );
     return quotes[randomNumber];
 }
-// When called a new background color will be set to the body element
+// When called a new background color will be set to the body element ( * Extra Credit )
 var setBgColor = function () {
     var bodyBg = document.body.style.backgroundColor;
     var r = Math.floor( Math.random() * 256 );
@@ -31,5 +31,8 @@ var printQuote = function () {
     }
     html += '</p>';
     var print = document.getElementById('quote-box').innerHTML = html;
+
+    setBgColor();
+
     return print;
 }

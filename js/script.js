@@ -9,5 +9,3 @@ window.setInterval(function(){
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
 loadQuoteEl.addEventListener("click", printQuote, false);
-// when user clicks anywhere on the button, the background color changes (* Extra Credit )
-loadQuoteEl.addEventListener("click", setBgColor, false);
