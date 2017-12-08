@@ -32,7 +32,7 @@ var printQuote = function () {
     html += '</p>';
     var print = document.getElementById('quote-box').innerHTML = html;
 
-    setBgColor();
+    setBgColor(); // side effect
 
     return print;
 }
